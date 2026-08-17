@@ -1,0 +1,19 @@
+int main()
+{
+int a; 
+short int b;
+unsigned int c;
+long int d;
+float e; 
+double f; 
+char g;
+char h[10];
+printf("size of int=%d\n",sizeof(a));        //4 bytes
+printf("size of short int=%u\n",sizeof(b));  //2 bytes
+printf("size unsigned int=%ld\n",sizeof(c));  //4 bytes
+printf("size of long int=%u\n",sizeof(d));    //8 bytes
+printf("size of float=%u\n",sizeof(e));       //4 bytes
+printf("size of double=%u\n",sizeof(f));      //8 bytes
+printf("size of char=%u\n",sizeof(g));        //1 byte
+printf("size of char=%u\n",sizeof(h));        //10bytes
+}
